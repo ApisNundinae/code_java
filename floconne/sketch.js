@@ -1,4 +1,5 @@
-let Ishowspeed = 7 ;
+let speed = [1, 10, 100, 1000];
+let fall = random(speed); 
 let floconnes = [] ;
 
 function setup() {
@@ -28,6 +29,9 @@ class ConneQuiFloque{
 		fill(255) ;
 		noStroke() ;
 		ellipse(this.posX,this.posY,20,20) ;
-		this.posY = this.posY + Ishowspeed ;
+		this.posY = this.posY + fall ;
 	}
 }
+
+
+

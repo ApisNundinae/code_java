@@ -14,5 +14,5 @@ function setup() {
 function draw() {
   // put drawing code here
 	background(140,28,54);
-	image(ChaiPasJaiPrisDuRetardPourNoter, 100,100,600,800)
+	image(ChaiPasJaiPrisDuRetardPourNoter, 100,100,600,800) ;
 }

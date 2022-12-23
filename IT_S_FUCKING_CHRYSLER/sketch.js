@@ -30,9 +30,9 @@ function eventTwo(){
 
 function draw() {
 	noStroke();
-	background(255) ;
+	background(255,0,0) ;
 	textSize(ts);
-	fill(255,0,0) ;
+	fill(255) ;
 	text(word,x, y) ;
 	x = x+speed ;
 	

@@ -11,7 +11,7 @@ createCanvas(windowWidth, windowHeight) ;
 }
 
 function draw() {
-background(9,14,34) ;
+background(150,0,0) ;
 	for(let counter = 0 ; counter < 100 ; counter ++){
 		flocons[counter].display() ;
 		
@@ -43,3 +43,6 @@ function mousePressed() {
 	
 	
 }
+
+
+
